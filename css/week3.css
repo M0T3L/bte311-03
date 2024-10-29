@@ -1,0 +1,51 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Tablo Stilleri */
+table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Satırların Renkli ve Alternatif Arka Planları */
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+tr:hover td {
+    background-color: #d1e7f1;
+}
+
