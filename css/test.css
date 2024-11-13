@@ -1,21 +1,19 @@
-/* Genel Stil Ayarları */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Yüksekliği minimum olarak ayarladık */
+    min-height: 100vh;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(135deg, #e0eafc, #cfdef3);
 }
 
-/* Form Stili */
 form {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    max-width: 90%; /* Ekranın %90'ına kadar genişlemeye izin verdik */
+    max-width: 90%;
     width: 350px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -25,7 +23,6 @@ form:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Başlık Stili */
 h1 {
     text-align: center;
     color: #333;
@@ -33,7 +30,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Etiket Stili */
 label {
     font-weight: 600;
     color: #444;
@@ -41,7 +37,6 @@ label {
     display: block;
 }
 
-/* Giriş Alanları Stili */
 input[type="text"], 
 textarea, 
 select {
@@ -62,14 +57,12 @@ select:focus {
     box-shadow: 0 0 5px rgba(102, 166, 255, 0.5);
 }
 
-/* Radio ve Checkbox Stili */
 input[type="radio"], 
 input[type="checkbox"] {
     margin-right: 8px;
     transform: scale(1.2);
 }
 
-/* Gönder Butonu Stili */
 input[type="submit"] {
     background: linear-gradient(135deg, #4CAF50, #2e7d32); 
     color: white;
