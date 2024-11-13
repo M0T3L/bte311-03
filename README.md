@@ -2,5 +2,5 @@
 
 [Yavuz Burak Kutluca - 2210780003](https://linkedin.com/in/yavuzbvrak)
 
-## Preview
-![alt text](preview.jpg)
+### Preview
+![screenshot of index.html](preview.jpg)
