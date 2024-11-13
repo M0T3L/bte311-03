@@ -26,36 +26,36 @@ body {
 
 .item-a {
     grid-column: 1 / 4; 
-    background-color: #e40b0b;  /* Dark Red */
+    background-color: #e40b0b;
 }
 
 .item-b {
     grid-column: 1 / 2;
-    background-color: #c30e0e;  /* Darker Red */
+    background-color: #c30e0e;
 }
 
 .item-c {
     grid-column: 2 / 3;
-    background-color: #a21112;  /* Burgundy */
+    background-color: #a21112;
 }
 
 .item-d {
     grid-column: 3 / 4;
-    background-color: #821415;  /* Dark Maroon */
+    background-color: #821415;
 }
 
 .item-e {
     grid-column: 1 / 3; 
-    background-color: #611618;  /* Deep Red-Brown */
+    background-color: #611618;
 }
 
 .item-f {
     grid-column: 3 / 4;
-    background-color: #40191c;  /* Dark Brown-Red */
+    background-color: #40191c;
 }
 
 .item-g {
     grid-column: 1 / 4; 
-    background-color: #1f1c1f;  /* Almost Black with Red Hue */
+    background-color: #1f1c1f;
 }
 
