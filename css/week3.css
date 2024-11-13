@@ -1,3 +1,4 @@
+/* Genel Stiller */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -16,6 +17,7 @@ h2 {
     font-size: 1.8em;
 }
 
+/* Tablo Stilleri */
 table {
     width: 100%;
     max-width: 1000px;
@@ -38,6 +40,7 @@ td {
     background-color: #f9f9f9;
 }
 
+/* Satırların Renkli ve Alternatif Arka Planları */
 tr:nth-child(even) {
     background-color: #f1f1f1;
 }

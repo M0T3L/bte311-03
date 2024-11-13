@@ -1,3 +1,4 @@
+/* Genel Stil Ayarları */
 body {
     display: flex;
     justify-content: center;
@@ -5,9 +6,10 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    background: linear-gradient(135deg, #ece9e6, #ffffff); /* Hafif degrade arka plan */
 }
 
+/* Form Stilleri */
 form {
     background-color: #ffffff;
     padding: 30px;
@@ -24,6 +26,7 @@ form.active {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Başlık Stili */
 h2 {
     text-align: center;
     color: #333;
@@ -31,11 +34,13 @@ h2 {
     margin-bottom: 15px;
 }
 
+/* Buton Konteyneri */
 .button-container {
     text-align: center;
     margin-top: 25px;
 }
 
+/* Buton Stili */
 button {
     padding: 12px 25px;
     margin: 5px;
@@ -70,6 +75,7 @@ input[type="submit"]:hover {
     transform: scale(1.05);
 }
 
+/* Giriş Kutuları */
 input[type="text"],
 input[type="email"],
 input[type="password"],

@@ -1,13 +1,15 @@
+/* Genel Stil Ayarları */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1e1e2f;
+  background-color: #1e1e2f; /* Koyu arka plan */
   margin: 0;
   overflow: hidden;
 }
 
+/* Daire Stil Ayarları */
 .circle {
   width: 160px;
   height: 160px;
@@ -19,26 +21,27 @@ body {
 }
 
 .circle1 {
-  background: radial-gradient(circle, #f4a261, #e76f51);
+  background: radial-gradient(circle, #f4a261, #e76f51); /* Degrade efekt */
   top: 80px;
   left: 80px;
   animation-delay: 0s;
 }
 
 .circle2 {
-  background: radial-gradient(circle, #a0c4ff, #4361ee);
+  background: radial-gradient(circle, #a0c4ff, #4361ee); /* Degrade efekt */
   top: 120px;
   left: 180px;
   animation-delay: 2s;
 }
 
 .circle3 {
-  background: radial-gradient(circle, #ffe066, #ffd166);
+  background: radial-gradient(circle, #ffe066, #ffd166); /* Degrade efekt */
   top: 180px;
   left: 140px;
   animation-delay: 4s;
 }
 
+/* Hareket Animasyonu */
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
